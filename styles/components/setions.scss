@@ -1,0 +1,23 @@
+@import '../vars';
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(222, 222, 222, 1) 90%);
+
+    .main-title {
+
+        padding-right: 150px;
+
+    }
+
+    .main-content {
+        color: #009FAA;
+        width: 30%;
+        font-size: 1.5rem;
+    }
+
+}
