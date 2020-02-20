@@ -1,0 +1,45 @@
+.menu {
+    width: 0px;
+    height: 0px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    //background-color: #FF5851:
+    background-color: #009FAA;
+    border-bottom-left-radius: 500px;
+    display: flex;
+    justify-content: center;
+
+    transition-duration: 0.5s;
+
+    ul {
+
+        position: absolute;
+        padding-top: 90px;
+        padding-left: 20%;
+        font-size: 24px;
+        line-height: 45px;
+        color: black;
+        letter-spacing: 2px;
+    }
+
+}
+
+.aside {
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    z-index: 12;
+    transition: .3s linear;
+}
+
+.link-list {
+    opacity: 0;
+}
+
+.none {
+    opacity: 1;
+    transition-delay: 6s;
+    transition: 0.2s;
+
+}
